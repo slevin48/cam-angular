@@ -1,5 +1,7 @@
 # Build Your First Ionic App: Photo Gallery (Ionic Angular and Capacitor)
 
+App running on Firebase: https://cam-app-f3752.web.app/
+
 Get started with Ionic by building a photo gallery app that runs on iOS, Android, and the web - with just one codebase. This is the complete project referenced in the ["Your First App: Angular" guide](https://ionicframework.com/docs/angular/your-first-app). Follow along to create a complete CRUD (create-read-update-delete) experience.
 
 Powered by [Ionic Angular](https://ionicframework.com/docs/angular/overview) (web app) and [Capacitor](https://capacitor.ionicframework.com) (native app runtime).
@@ -33,3 +35,14 @@ After the user navigates to Tab 2 (Photos), they can tap/click on the camera but
 3) Install all packages: `npm install`.
 4) Run on the web: `ionic serve`.
 5) Run on iOS or Android: See [here](https://ionicframework.com/docs/building/running).
+
+## How to Deploy to firebase
+https://ionicframework.com/docs/angular/pwa
+
+1) install the Firebase CLI: `npm install -g firebase-tools`
+2) build an optimized version:`ionic --build`
+3) deploy the app: `firebase deploy`
+
+
+## Quick fix back camera
+https://github.com/ionic-team/pwa-elements/issues/11
